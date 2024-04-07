@@ -1,0 +1,80 @@
+import = ["/Users/rubenvanstaden/.config/alacritty/themes/kanagawa.toml"]
+
+[cursor]
+style = "Beam"
+
+[font]
+size = 15
+
+[mouse]
+hide_when_typing = true
+
+[font.bold]
+family = "Source Code Pro"
+style = "Bold"
+
+[font.italic]
+family = "Source Code Pro"
+style = "Light Italic"
+
+[font.normal]
+family = "Source Code Pro"
+style = "ExtraLight"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "K"
+mode = "~Vi|~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "R"
+mode = "~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "B"
+mode = "Vi|~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "F"
+mode = "Vi|~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ScrollLineUp"
+key = "Y"
+mode = "Vi|~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ScrollLineDown"
+key = "E"
+mode = "Vi|~Search"
+mods = "Command"
+
+[scrolling]
+history = 5000
+
+[window]
+blur = true
+opacity = 0.9
+decorations = "buttonless"
+#dynamic_padding = false
+#startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 125
+lines = 55
+
+[window.padding]
+x = 15
+y = 15

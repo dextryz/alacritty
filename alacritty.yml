@@ -2,13 +2,14 @@ import:
     - ~/.config/alacritty/themes/kanagawa.yml
 
 window:
-    opacity: 0.9
+    opacity: 0.8
+    blur: true
     padding:
         x: 15
         y: 15
     dimensions:
-        columns: 110
-        lines: 48
+        columns: 125
+        lines: 55
 
 font:
     normal:
@@ -23,7 +24,7 @@ font:
     offset:
         x: 0
         y: 0
-    size: 16
+    size: 15
 
 tabspaces: 2
 
