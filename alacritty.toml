@@ -1,4 +1,4 @@
-import = ["/Users/rubenvanstaden/.config/alacritty/themes/kanagawa.toml"]
+import = ["/Users/rubenvanstaden/.config/alacritty/kanagawa.toml"]
 
 [cursor]
 style = "Beam"
