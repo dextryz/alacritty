@@ -1,4 +1,4 @@
-import = ["/Users/rubenvanstaden/.config/alacritty/kanagawa.toml"]
+import = ["/Users/rubenvanstaden/.config/alacritty/everforest.toml"]
 
 [cursor]
 style = "Beam"
@@ -18,8 +18,9 @@ family = "Source Code Pro"
 style = "Light Italic"
 
 [font.normal]
+#family = "Monaspace Krypton"
 family = "Source Code Pro"
-style = "ExtraLight"
+style = "Light"
 
 [font.offset]
 x = 0
@@ -66,7 +67,7 @@ history = 5000
 
 [window]
 blur = true
-opacity = 0.9
+opacity = 0.8
 decorations = "buttonless"
 #dynamic_padding = false
 #startup_mode = "Windowed"
